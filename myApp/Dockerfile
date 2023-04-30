@@ -1,4 +1,4 @@
-#base image
+#base image is alpine for linux commands
 FROM node:alpine
 #copying file from host to docker container
 COPY ./package.json ./
