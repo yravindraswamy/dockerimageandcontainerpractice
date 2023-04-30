@@ -1,0 +1,5 @@
+versions:'3'
+services:
+  Ravindra
+  image: mysql
+  
