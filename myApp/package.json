@@ -1,0 +1,10 @@
+{
+    "name": "myapp",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express":"*"
+    }
+}
