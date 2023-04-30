@@ -1,0 +1,14 @@
+version:'3'
+services:
+  Ravindra:
+    image: mysql
+    restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: Ravindra
+      MYSQL_DATABASE: Manjeru
+    ports:
+      - "3304:3306"
+      
+volumes:
+mydb
+    
